@@ -16,9 +16,7 @@ const ConstructionPage = () => {
         />
         <Button
           label="Whatsapp"
-          onClick={() =>
-            (window.location.href = "hhttps://wa.me/5512982518567")
-          }
+          onClick={() => (window.location.href = "https://wa.me/5512982518567")}
         />
         <Button
           label="GitHub"
@@ -26,6 +24,7 @@ const ConstructionPage = () => {
             (window.location.href = "https://github.com/bugmarcus")
           }
         />
+        
       </div>
     </div>
   );

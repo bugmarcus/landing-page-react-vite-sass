@@ -7,18 +7,33 @@ body {
 .black {
   height: 100vh;
   width: 100vw;
-  background-color: #111;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .dvd {
   position: absolute;
   left: 0px;
   top: 0px;
-  height: 50px;
+  height: 100px;
   width: 100px;
-  mask: url("https://upload.wikimedia.org/wikipedia/commons/9/9b/DVD_logo.svg");
-  -webkit-mask: url("https://upload.wikimedia.org/wikipedia/commons/9/9b/DVD_logo.svg");
   background-repeat: no-repeat;
   background-size: 75px;
   background-position: center;
+}
+
+.cls1 {
+  fill: #ed6f73;
+}
+.cls1,
+.cls2 {
+  opacity: 0.85;
+}
+.cls2 {
+  fill: #39acd3;
+}
+.cls3 {
+  fill: #fff;
 }
